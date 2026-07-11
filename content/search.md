@@ -1,0 +1,10 @@
+---
+title: "搜索"
+layout: "search"
+url: "/search/"
+summary: search
+placeholder: "搜索文章……"
+ShowToc: false
+ShowReadingTime: false
+comments: false
+---
