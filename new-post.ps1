@@ -30,5 +30,10 @@ tags: []
 $front | Out-File -FilePath $path -Encoding utf8
 Write-Host ""
 Write-Host "已创建：$path"
-Write-Host "记事本已打开，写完保存，双击「发布.bat」即可上线。"
-Start-Process notepad.exe -ArgumentList "`"$path`""
+Write-Host "Typora 已打开，写完保存，双击「发布.bat」即可上线。"
+$typora = "C:\Program Files\Typora\Typora.exe"
+if (Test-Path $typora) {
+    Start-Process $typora -ArgumentList "`"$path`""
+} else {
+    Start-Process notepad.exe -ArgumentList "`"$path`""
+}
