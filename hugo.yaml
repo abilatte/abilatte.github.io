@@ -42,6 +42,11 @@ menu:
 params:
   env: production
   defaultTheme: auto
+  assets:
+    favicon: "/favicon.png"
+    favicon16x16: "/favicon.png"
+    favicon32x32: "/favicon.png"
+    apple_touch_icon: "/favicon.png"
   DateFormat: "2006-01-02"
   ShowReadingTime: true
   ShowWordCount: true
