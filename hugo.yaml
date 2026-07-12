@@ -36,7 +36,6 @@ params:
 
   sidebar:
     compact: false
-    emoji: "☕"
     subtitle: "一个新人程序员的练级日志。"
     avatar: "img/avatar.png"
 
@@ -78,18 +77,6 @@ menu:
       params:
         icon: home
         newTab: false
-    - identifier: archives
-      name: 归档
-      url: /archives/
-      weight: -70
-      params:
-        icon: archives
-    - identifier: search
-      name: 搜索
-      url: /search/
-      weight: -60
-      params:
-        icon: search
 
   social:
     - identifier: github
