@@ -1,13 +1,12 @@
 baseURL: "https://abilatte.github.io/"
 title: 阿比拿铁的博客
 theme: hugo-theme-stack
-languageCode: zh-cn
-defaultContentLanguage: zh-cn
+defaultContentLanguage: zh
 hasCJKLanguage: true
 timeZone: Asia/Shanghai
 
 languages:
-  zh-cn:
+  zh:
     label: "中文"
     locale: zh-CN
     title: 阿比拿铁的博客
