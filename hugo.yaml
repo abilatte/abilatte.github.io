@@ -4,6 +4,10 @@ theme: hugo-theme-stack
 defaultContentLanguage: zh
 hasCJKLanguage: true
 timeZone: Asia/Shanghai
+enableGitInfo: true
+
+frontmatter:
+  lastmod: ["lastmod", ":git", "date"]
 
 languages:
   zh:
@@ -16,7 +20,6 @@ pagination:
   pagerSize: 10
 
 permalinks:
-  post: /:slug/
   page: /:slug/
 
 params:
@@ -30,8 +33,8 @@ params:
     customText: ""
 
   dateFormat:
-    published: "2006-01-02"
-    lastUpdated: "2006-01-02"
+    published: "2006-01-02 15:04"
+    lastUpdated: "2006-01-02 15:04"
 
   sidebar:
     compact: false
