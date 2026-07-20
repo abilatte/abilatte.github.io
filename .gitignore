@@ -3,3 +3,7 @@ resources/_gen/
 .hugo_build.lock
 README.md
 AGENTS.md
+/publish.ps1
+/new-post.ps1
+/发布.bat
+/新文章.bat
